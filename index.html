@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MUHIRWA MAIDA</title>
+  <meta name="description" content="Personal portfolio website" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- Header / Nav -->
+  <header class="nav" id="top">
+    <div class="nav__inner container">
+      <a class="brand" href="#hero" aria-label="Go to top">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span class="brand__name">MUHIRWA MAIDA</span>
+      </a>
+
+      <button class="nav__toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav class="nav__links" id="navLinks" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#calculator">Calculator</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+        <button class="btn btn--ghost" id="themeToggle" type="button" aria-label="Toggle theme">
+          🌙 / ☀️
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO (Landing) -->
+    <section class="hero container" id="hero">
+      <div class="card hero__left">
+        <p class="pill">
+          <span class="pill__badge">Available</span>
+          <span class="pill__text">Junior Frontend Developer • Musanze/Kigali • Remote OK</span>
+        </p>
+
+        <h1>
+          Hi, I’m <span class="accent">MUHIRWA MAIDA</span>.<br />
+          <span class="muted">Junior Engineer IIT</span>
+        </h1>
+
+        <p class="muted">
+          I'm a student in computer Science specialized in IIT who is intersted to Web Development and want to build samll but interesting websites.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn" href="#projects">View My Work</a>
+          <a class="btn btn--ghost" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <b>3+</b><span class="muted">Real Projects</span>
+          </div>
+          <div class="stat">
+            <b>HTML/CSS</b><span class="muted">Responsive UI</span>
+          </div>
+          <div class="stat">
+            <b>JS</b><span class="muted">DOM + Validation</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="card hero__right">
+        <img class="profile" src="assets/images/profile2.jpeg" alt="Profile picture of REPLACE_ME_NAME" />
+        <div class="hero__quick">
+          <p><b>Program:</b> Computer Science (e.g., BSc Computer Science)</p>
+          <p><b>Year:</b> Year II</p>
+          <p><b>Goal:</b> To build simple but interesting websites.</p>
+
+          <div class="social">
+            <a class="chip" href="https://github.com/maidahmuhirwa" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="chip" href="mailto:maidahmuhirwa@gmail.com">Email</a>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section container" id="about">
+      <header class="section__header">
+        <h2>About Me</h2>
+        <p class="muted">Background • Program/Year • Career goal • Skills layout (grid/flex)</p>
+      </header>
+
+      <div class="card">
+        <p>
+          I am a Computer Science student currently in Year II at INES RUHENGERI.
+           I am building strong foundations in software development, web technologies, and network/security concepts. 
+           I enjoy designing clean, responsive user interfaces and turning ideas into practical applications using HTML, CSS, and JavaScript. 
+           My goal is to become a professional developer who builds reliable and secure systems, with a special interest in networking and cybersecurity. 
+           Through personal and academic projects, I practice problem-solving, debugging, and writing organized code.
+            I am also improving my teamwork and communication skills by working on group assignments and presenting technical results.
+           In the short term, I am seeking opportunities to gain real experience through internships or junior roles and keep growing my portfolio.
+        </p>
+
+        <div class="about__skills">
+          <div class="mini-card">
+            <b>Strength</b>
+            <p class="muted">Clean UI + problem solving </p>
+          </div>
+          <div class="mini-card">
+            <b>Focus</b>
+            <p class="muted"> Responsive design + JS DOM </p>
+          </div>
+          <div class="mini-card">
+            <b>Interest</b>
+            <p class="muted"> IoT </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS (visual layout required) -->
+    <section class="section container" id="skills">
+      <header class="section__header">
+        <h2>Technical Skills</h2>
+        <p class="muted">Displayed with cards + progress bars (visual layout).</p>
+      </header>
+
+      <div class="grid-3">
+        <div class="skill card">
+          <b>HTML</b>
+          <div class="bar"><span style="width: 90%"></span></div>
+          <p class="muted">Semantic structure, accessibility basics</p>
+        </div>
+
+        <div class="skill card">
+          <b>CSS</b>
+          <div class="bar"><span style="width: 85%"></span></div>
+          <p class="muted">Flexbox, grid, media queries, spacing</p>
+        </div>
+
+        <div class="skill card">
+          <b>JavaScript</b>
+          <div class="bar"><span style="width: 75%"></span></div>
+          <p class="muted">DOM manipulation, validation, logic</p>
+        </div>
+
+        <div class="skill card">
+          <b>Git / GitHub</b>
+          <div class="bar"><span style="width: 70%"></span></div>
+          <p class="muted">Commits, repo structure, README</p>
+        </div>
+
+        <div class="skill card">
+          <b>Bootstrap</b>
+          <div class="bar"><span style="width: 60%"></span></div>
+          <p class="muted">Responsive components (if used)</p>
+        </div>
+
+        <div class="skill card">
+          <b>Problem Solving</b>
+          <div class="bar"><span style="width: 80%"></span></div>
+          <p class="muted">Build features, debug, improve UX</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS (at least 3 real projects) -->
+    <section class="section container" id="projects">
+      <header class="section__header">
+        <h2>Projects</h2>
+        <p class="muted">Each project: title • problem solved • tech • screenshot • GitHub link</p>
+      </header>
+
+      <div class="grid-3">
+        <article class="project card">
+          <img src="assets/images/image1.jpeg" alt="Screenshot of Project 1" class="project__img" />
+          <h3>Welcome to Explore the World</h3>
+          <p><b>Problem:</b>To find a way to travel opens your heart, broadens your mind, and fills your life with stories. Discover exciting destinations, learn travel tips, and plan your perfect trip with us.</p>
+          <p><b>Tech:</b>HTML, CSS, JavaScript</p>
+          <a class="btn btn--small" href="https://github.com/maidahmuhirwa/Welcome-Hello.git" target="_blank" rel="noreferrer">GitHub</a>
+        </article>
+
+        <article class="project card">
+          <img src="assets/images/image2.jpeg" alt="Screenshot of Project 2" class="project__img" />
+          <h3>Smart Student Grade Calculator</h3>
+          <p><b>Problem:</b> A student wants to know their final average and whether they have passed the semester.</p>
+          <p><b>Tech:</b> HTML, CSS, JavaScript (DOM, validation)</p>
+          <a class="btn btn--small" href="https://github.com/maidahmuhirwa/Grade-calculator.git" target="_blank" rel="noreferrer">GitHub</a>
+        </article>
+
+        <article class="project card">
+          <img src="assets/images/image3.png" alt="Screenshot of Project 3" class="project__img" />
+          <h3>Secure Password Strength Checker</h3>
+          <p><b>Problem:</b> Users create weak passwords.</p>
+          <p><b>Tech:</b> HTML, CSS, JavaScript</p>
+          <a class="btn btn--small" href="https://github.com/maidahmuhirwa/password-checker.git" target="_blank" rel="noreferrer">GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE JS CALCULATOR (Context-based) -->
+    <section class="section container" id="calculator">
+      <header class="section__header">
+        <h2>Musanze Transport Fare Estimator</h2>
+        <p class="muted">
+          Context-based calculator (not a normal calculator). Includes validation + DOM manipulation.
+        </p>
+      </header>
+
+      <div class="card">
+        <form id="fareForm" class="calc">
+          <div class="calc__row">
+            <div class="field">
+              <label for="distanceKm">Distance (km)</label>
+              <input id="distanceKm" type="number" min="0" step="0.1" placeholder="e.g., 6.5" />
+              <small class="error" id="distanceError"></small>
+            </div>
+
+            <div class="field">
+              <label for="rideType">Ride type</label>
+              <select id="rideType">
+                <option value="moto">Moto</option>
+                <option value="taxi">Taxi</option>
+                <option value="bus">Bus</option>
+              </select>
+              <small class="muted">Different rates per km</small>
+            </div>
+          </div>
+
+          <div class="calc__row">
+            <button class="btn" type="submit">Estimate Fare</button>
+            <button class="btn btn--ghost" type="button" id="calcReset">Clear</button>
+          </div>
+
+          <div class="result" aria-live="polite">
+            <p class="muted">Estimated fare:</p>
+            <p class="result__value" id="fareResult">—</p>
+            <p class="muted small" id="fareDetails"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- CV SECTION (download + HTML preview) -->
+    <section class="section container" id="cv">
+      <header class="section__header">
+        <h2>Curriculum Vitae</h2>
+        <p class="muted">Download button + HTML preview</p>
+      </header>
+
+      <div class="row-2">
+        <div class="card">
+          <h3>Download CV</h3>
+          <p class="muted">Put your PDF in <code>assets/cv/CV_MAIDA.pdf</code>.</p>
+          <a class="btn" href="assets/cv/cv.pdf" download>Download CV (PDF)</a>
+        </div>
+
+        <div class="card cv-preview">
+          <h3>CV Preview (HTML)</h3>
+          <div class="cv">
+            <h4>MUHIRWA MAIDA</h4>
+            <p class="muted">Junior Engineer IIT • Musanze, Rwanda</p>
+            <hr />
+            <p><b>Email:</b> maidahmuhirwa@gmail.com</p>
+            <p><b>Phone:</b> +25078945612</p>
+            <p><b>GitHub:</b> maidahmuhirwa</p>
+            
+
+            <h5>Education</h5>
+            <ul>
+              <li>Computer Science option IIT, INES Ruhengeri, Year II</li>
+            </ul>
+
+            <h5>Skills</h5>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>Git/GitHub</li>
+            </ul>
+
+            <h5>Projects</h5>
+            <ul>
+              <li>Welcome to Explore the World</li>
+              <li>Smart Student Grade Calculator</li>
+              <li>Secure Password Strength Checker</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT (styled form, no backend) -->
+    <section class="section container" id="contact">
+      <header class="section__header">
+        <h2>Contact</h2>
+        <p class="muted">Styled form (no backend). Includes validation.</p>
+      </header>
+
+      <div class="card">
+        <div class="contact__info">
+          <p><b>Email:</b> <a href="mailto:maidahmuhirwa@gmail.com">maidahmuhirwa@gmail.com</a></p>
+          <p><b>Phone:</b> <a href="tel:+25078945612">+25078945612</a></p>
+          <p><b>GitHub:</b> <a href="https://github.com/maidahmuhirwa" target="_blank" rel="noreferrer">maidahmuhirwa </a></p>
+        </div>
+
+        <form id="contactForm" class="contact__form" novalidate>
+          <div class="row-2">
+            <div class="field">
+              <label for="cName">Name</label>
+              <input id="cName" type="text" placeholder="Your name" />
+              <small class="error" id="cNameError"></small>
+            </div>
+            <div class="field">
+              <label for="cEmail">Email</label>
+              <input id="cEmail" type="email" placeholder="you@example.com" />
+              <small class="error" id="cEmailError"></small>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="cMsg">Message</label>
+            <textarea id="cMsg" rows="5" placeholder="Write your message..."></textarea>
+            <small class="error" id="cMsgError"></small>
+          </div>
+
+          <button class="btn" type="submit">Send</button>
+          <p class="muted small" id="contactHint"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="muted small">© <span id="year"></span>MUHIRWA MAIDA. All rights reserved.</p>
+      <a class="btn btn--ghost btn--small" href="#top">↑ Back to top</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
